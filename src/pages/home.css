@@ -1,0 +1,33 @@
+.homeCon{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(40, 30, 0, 0.7)),url(/public/images/backgroundhome.jpg);
+    
+}
+
+.searcher{
+    background-color: gainsboro;
+    padding: 1%;
+    border: 10px solid gainsboro;
+    border-radius: 40px;
+    color: #24262b;
+    margin: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+    
+}
+
+.fa{
+    margin-left: 3%;
+    font-size: 15px;
+    background-color: #c0a742;
+    border: 10px solid #c0a742;
+    border-radius: 100%;
+    color: #24262b;
+
+}
+
+.fa:hover{
+    background-color: #beab5d;
+    border: 10px solid #beab5d;
+    color: #57595c;
+}
