@@ -1,17 +1,11 @@
 import React, { useState } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { libraryData } from "../data";
 
 import "./search.css";
 
 function Search() {
-  const libraryData = [
-    { id: 1, title: "Book 1", author: "Author 1", genre: "Fiction" },
-    { id: 2, title: "Book 2", author: "Author 2", genre: "Mystery" },
-    { id: 3, title: "Book 3", author: "Author 3", genre: "Fantasy" },
-    { id: 4, title: "Book 4", author: "Author 4", genre: "Sci-Fi" },
-  ];
-
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearch = (event) => {
